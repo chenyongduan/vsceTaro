@@ -1,0 +1,74 @@
+{
+  "extract variable": {
+    "prefix": "cv",
+    "body": [
+      "const { $0 } = $1;"
+    ]
+  },
+  "extract props": {
+    "prefix": "cp",
+    "body": [
+      "const { $0 } = this.props;"
+    ]
+  },
+  "extract state": {
+    "prefix": "cs",
+    "body": [
+      "const { $0 } = this.state;"
+    ]
+  },
+  "mapDispatchToProps": {
+    "prefix": "cmd",
+    "body": [
+      "const mapDispatchToProps = {",
+      "  $0",
+      "};"
+    ]
+  },
+  "mapStateToProps": {
+    "prefix": "cms",
+    "body": [
+      "const mapStateToProps = (state: RootState) => {",
+      "  return {",
+      "    $0",
+      "  };",
+      "};"
+    ]
+  },
+  "setState": {
+    "prefix": "ss",
+    "body": [
+      "this.setState({",
+      "  $0",
+      "});"
+    ]
+  },
+  "setState function": {
+    "prefix": "ssf",
+    "body": [
+      "this.setState((prevState) => {",
+      "  return { $0 }",
+      "});"
+    ]
+  },
+  "typeof mapDispatchToProps": {
+    "prefix": "tomd",
+    "body": [
+      "typeof mapDispatchToProps"
+    ]
+  },
+  "typeof mapStateToProps": {
+    "prefix": "toms",
+    "body": [
+      "ReturnType<typeof mapStateToProps>"
+    ]
+  },
+  "type State": {
+    "prefix": "tps",
+    "body": [
+      "type State = Readonly<{",
+      "  $0",
+      "}>;"
+    ]
+  }
+}

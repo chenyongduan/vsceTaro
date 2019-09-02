@@ -1,0 +1,50 @@
+{
+  "useCallback": {
+    "prefix": "ucb",
+    "body": [
+      "const $1 = useCallback(() => {",
+      "  $0",
+      "}, []);",
+      ""
+    ]
+  },
+  "useContext": {
+    "prefix": "uctx",
+    "body": [
+      "const { $0 } = useContext($1);"
+    ]
+  },
+  "useDispatch": {
+    "prefix": "ud",
+    "body": [
+      "const dispatch = useDispatch();"
+    ]
+  },
+  "useEffect": {
+    "prefix": "ue",
+    "body": [
+      "useEffect(() => {",
+      "  $0",
+      "}, []);",
+      ""
+    ]
+  },
+  "useForm": {
+    "prefix": "uf",
+    "body": [
+      "const [form] = Form.useForm();"
+    ]
+  },
+  "useRef": {
+    "prefix": "ur",
+    "body": [
+      "const $1 = useRef<$2>($0);"
+    ]
+  },
+  "useState": {
+    "prefix": "us",
+    "body": [
+      "const [$1, $2] = useState($0);"
+    ]
+  }
+}

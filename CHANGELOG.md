@@ -1,9 +1,7 @@
 # Change Log
 
-All notable changes to the "tstaro" extension will be documented in this file.
+更改记录
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.0.0]
 
-## [Unreleased]
-
-- Initial release
+- react、component、model和hooks的代码片段

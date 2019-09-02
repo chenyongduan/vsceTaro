@@ -1,0 +1,52 @@
+{
+  "create taro model": {
+    "prefix": "model",
+    "body": [
+      "import { Model } from '@redux-model/taro';",
+      "",
+      "type Data = {};",
+      "",
+      "class ${TM_FILENAME_BASE} extends Model<Data> {",
+      "  $0",
+      "",
+      "  protected initReducer(): Data {",
+      "    return {};",
+      "  }",
+      "}",
+      "",
+      "export const ${TM_FILENAME_BASE/^([_A-Z])/${1:/downcase}/} = new ${TM_FILENAME_BASE}();",
+      ""
+    ]
+  },
+  "model action normal": {
+    "prefix": "man",
+    "body": [
+      "$1 = this.actionNormal((state, payload) => {",
+      "  ${0:return state;}",
+      "});"
+    ]
+  },
+  "model action request": {
+    "prefix": "mar",
+    "body": [
+      "$1 = this.actionRequest({",
+      "  action: () => {",
+      "    return this.${2:get}({",
+      "      uri: '$0',",
+      "    });",
+      "  },",
+      "  onSuccess: (state, action) => {",
+      "    return action.response;",
+      "  },",
+      "});"
+    ]
+  },
+  "model action thunk": {
+    "prefix": "mat",
+    "body": [
+      "$1 = this.actionThunk(() => {",
+      "  $0",
+      "});"
+    ]
+  }
+}
