@@ -37,6 +37,8 @@ Typescript taro Snippets.
 
 | Trigger | Content |
 | ------- | ------- |
+| `cw`    | console.warn() |
+| `ce`    | console.error() |
 | `cmd`   | const mapDispatchToProps = (state: State) => {} |
 | `cms`   | const mapStateToProps = {} |
 | `cp`    | const {  } = this.props |

@@ -17,6 +17,18 @@
       "const { $0 } = this.state;"
     ]
   },
+  "console warn": {
+    "prefix": "cw",
+    "body": [
+      "console.warn($0);"
+    ]
+  },
+  "console error": {
+    "prefix": "ce",
+    "body": [
+      "console.error($0);"
+    ]
+  },
   "mapDispatchToProps": {
     "prefix": "cmd",
     "body": [

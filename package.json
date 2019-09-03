@@ -2,11 +2,12 @@
 	"name": "tstaro",
 	"displayName": "TsTaro",
 	"description": "taro代码片段",
-	"version": "1.0.0",
+	"version": "1.0.3",
 	"publisher": "cyd",
 	"engines": {
 		"vscode": "^1.36.0"
-	},
+  },
+  "icon": "logoTaro.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/chenyongduan/vsceTaro.git"
