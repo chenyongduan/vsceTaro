@@ -1,6 +1,9 @@
 # Change Log
 
 更改记录
+## [1.0.4]
+
+- 支持typescriptreact语言
 
 ## [1.0.3]
 

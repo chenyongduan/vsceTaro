@@ -2,7 +2,7 @@
 	"name": "tstaro",
 	"displayName": "TsTaro",
 	"description": "taro代码片段",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"publisher": "cyd",
 	"engines": {
 		"vscode": "^1.36.0"
@@ -31,6 +31,22 @@
       },
 			{
         "language": "typescript",
+        "path": "./snippets/model.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.json"
+			},
+			{
+        "language": "typescriptreact",
+        "path": "./snippets/hooks.json"
+			},
+			{
+        "language": "typescriptreact",
+        "path": "./snippets/component.json"
+      },
+			{
+        "language": "typescriptreact",
         "path": "./snippets/model.json"
       }
     ]
